@@ -20,7 +20,7 @@
                 [6, 7],
                 [7, 8],
             ],
-            label: "Mails",                
+            label: "Home",                
         };
         var data2 = {
             data: [                
@@ -29,14 +29,14 @@
                 [9, 7],
                 [10, 7]
             ],
-            label: "SMS",
+            label: "Away",
             lines: { show: true, fill: true ,lineWidth: 1}
         };
         var data3 = {
             data: [                
                 [7, 8]
             ],
-            label: "Key Player Injured",
+            label: "Injury",
             points: { show: true, radius: 4,lineWidth: 2}
         };
         var options = {
@@ -75,16 +75,16 @@
             colors: [ "#009688","#888888","#000"],
             xaxis: {
                 ticks: [
-                    [1, "Game 1"],
-                    [2, "Game 2"],
-                    [3, "Game 3"],
-                    [4, "Game 4"],
-                    [5, "Game 5"],
-                    [6, "Game 6"],
-                    [7, "Game 7"],
-                    [8, "Game 8"],
-                    [9, "Game 9"],
-                    [10, "Game 10"]
+                    [1, "A | CHI"],
+                    [2, "H | NYK"],
+                    [3, "H | DAL"],
+                    [4, "H | HOU"],
+                    [5, "A | LAC"],
+                    [6, "A | MIN"],
+                    [7, "A | SAS"],
+                    [8, "H |  CHA"],
+                    [9, "A | LAL"],
+                    [10, "H | IND"]
                 ],
                 font: {
                     family: "Roboto,sans-serif",
@@ -135,9 +135,9 @@
                     var month = item.series.xaxis.ticks[item.dataIndex].label;
                     var tool_text = '';
                     if(item.series.label=="Key Player Injured"){
-                        tool_text += "Key Player Injured";
+                        tool_text += "Kevin Durant Injured";
                     }else{
-                        tool_text += "Ranking : " + y;                        
+                        tool_text += "AWY vs. Team X (W 112-100) " + y;                        
                     }
                     showTooltip(item.pageX, item.pageY, tool_text);
                 }
@@ -218,14 +218,14 @@
         //Pie chart example data. Note how there is only a single array of key-value pairs.
         function exampleData() {
             return [{
-                    "label": "One",
-                    "value": 290.765957771107
+                    "label": "Free Throws",
+                    "value": 0.2
                 }, {
-                    "label": "Two",
-                    "value": 196.45946739256
+                    "label": "Twos",
+                    "value": 0.45
                 }, {
-                    "label": "Three",
-                    "value": 302.807804682612
+                    "label": "Threes",
+                    "value": 0.35
                 }];
         }
     }());

@@ -10,8 +10,7 @@
         <!-- Sidebar toggle -->
 
         <!-- Logo -->
-        <a href="index.html" class="brand-logo">
-            <img src="<?php print _MEDIA_URL ?>assets/_con/images/logo.png" alt="Con">
+        <a href="index.html" class="brand-logo"><h4>DataDunk</h4>
         </a>
         <!-- /Logo -->
 
@@ -19,7 +18,7 @@
         <ul>            
             <li class="user">
                 <a class="dropdown-button" data-activates="user-dropdown" href="#!">
-                    <img src="<?php print _MEDIA_URL ?>assets/_con/images/user.jpg" alt="John Doe" class="circle"> Dave Jay <i class="mdi-navigation-expand-more right"></i>
+                    <img src="<?php print _MEDIA_URL ?>assets/_con/images/user.jpg" alt="John Doe" class="circle"> John <i class="mdi-navigation-expand-more right"></i>
                 </a>
 
                 <ul id="user-dropdown" class="dropdown-content">

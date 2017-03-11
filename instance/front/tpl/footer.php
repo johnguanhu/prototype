@@ -39,9 +39,9 @@
                     <li class="yay-user-info">
                         <a href="page-profile.html">
                             <img src="<?php print _MEDIA_URL ?>assets/_con/images/user.jpg" alt="John Doe" class="circle">
-                            <h3 class="yay-user-info-name">John Doe</h3>
+                            <h3 class="yay-user-info-name">Test User</h3>
                             <div class="yay-user-location">
-                                <i class="fa fa-map-marker"></i> Las Vegas, NV
+                                <i class="fa fa-map-marker"></i> New York, NY
                             </div>
                         </a>
                     </li>

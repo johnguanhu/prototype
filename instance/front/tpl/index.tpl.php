@@ -8,7 +8,7 @@
         <meta name="author" content="_nK">
         <link rel="icon" href="assets/_con/images/icon.png">
 
-        <title> John Hu | <?php print _cg("page_title"); ?></title>
+        <title> Data Dunk | <?php print _cg("page_title"); ?></title>
 
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
 
@@ -59,8 +59,8 @@
             <?php endif; ?>
         <?php endif; ?>
 
-        <footer>&copy; 2015
-            <strong>nK</strong>. All rights reserved. <a href="http://themeforest.net/item/con-material-admin-dashboard-template/10621512?ref=_nK">Purchase</a></footer>
+        <footer>&copy; 2017
+            <strong>DataDunk</strong>. All rights reserved. </a></footer>
 
         <!-- DEMO [REMOVE IT ON PRODUCTION] -->
         <script type="text/javascript" src="<?php print _MEDIA_URL ?>assets/_con/js/_demo.js"></script>
