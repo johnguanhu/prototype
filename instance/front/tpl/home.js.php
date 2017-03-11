@@ -137,7 +137,7 @@
                     if(item.series.label=="Key Player Injured"){
                         tool_text += "Kevin Durant Injured";
                     }else{
-                        tool_text += "AWY vs. Team X (W 112-100) " + y;                        
+                        tool_text += "W: " + y + " - " + y;                        
                     }
                     showTooltip(item.pageX, item.pageY, tool_text);
                 }
