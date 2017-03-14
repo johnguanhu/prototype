@@ -134,7 +134,7 @@
 
                     var month = item.series.xaxis.ticks[item.dataIndex].label;
                     var tool_text = '';
-                    if(item.series.label=="Key Player Injured"){
+                    if(item.series.label=="Injury"){
                         tool_text += "Kevin Durant Injured";
                     }else{
                         tool_text += "W: " + y + " - " + y;                        

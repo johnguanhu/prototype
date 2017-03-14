@@ -1,0 +1,94 @@
+.logo-img-block img{
+    height: 70px;
+}
+.logo-img-block{
+    float:left;
+    font-size: 20px
+}
+.logo-text-block{
+    float: left; 
+    font-size: 22px;     
+    margin: 18px 0 0 24px;
+    color: #297ab4;
+}
+
+.logo-subscribe-team{
+    float: right;
+    margin: 12px 10px auto 0;
+    width: 30%;
+}
+.projected-record{
+    float: right;
+    margin: 0 25px 0 0;
+    border-right: 1px solid gray;
+    padding: 5px 25px 5px 5px;
+    width: 30%;
+}
+.current-record{
+    float: right;
+    margin: 0 10px 0 0;
+    border-right: 1px solid gray;
+    padding: 5px 25px 5px 5px;
+    width: 30%;
+}
+
+.key-payers,.summary-statistics{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+}
+.row .col.summary-statistics-head,.row .col.key-payers-head{
+    padding-bottom: 0px;
+}
+.summary-statistics-head h3,.key-payers-head h3{
+    font-size: 20px;
+}
+.row .col.summary-statistics-body,.row .col.key-payers-body{
+    padding-bottom: 10px;
+}
+.key-player-profile{
+    text-align: center;
+    float: left;
+}
+.key-player-profile img{
+    border-radius: 50%;
+    height: 100px;    
+    margin-top: 50px;
+}
+.key-player-detail{
+    float: left;
+    margin-left: 10px;
+}
+.key-player-detail th,.key-player-detail td{
+    padding: 0px 5px;
+    font-size: 14px;
+}
+/* Legend Start - Please comments below CSS for legend in Graphs*/
+#flotLineChart .legend{
+    display: none;
+}
+#chart2 .nv-legend{
+    display: none;
+}
+#chart2{
+    margin-top: -35px;
+    margin-bottom: -35px;
+}
+/* Legend End*/
+
+.content.auto-overflow{
+    overflow: visible;
+}
+
+.social-media{
+    float:right;
+    margin-top: -8px;
+}
+.social-media span{
+    margin: 0px 3px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.social-media span:hover{
+    opacity: 1;
+}

@@ -43,6 +43,7 @@
 
         <!-- Main -->
         <link rel="stylesheet" type="text/css" href="<?php print _MEDIA_URL ?>assets/_con/css/con-base.css" />       
+        <link rel="stylesheet" type="text/css" href="<?php print _MEDIA_URL ?>custom.css" />       
 
     </head>
     <body>
@@ -60,7 +61,14 @@
         <?php endif; ?>
 
         <footer>&copy; 2017
-            <strong>DataDunk</strong>. All rights reserved. </a></footer>
+            <strong>DataDunk</strong>. All rights reserved. 
+            <div class='social-media'>
+                <span><i class="fa fa-3x fa-facebook-square"></i></span>
+                <span><i class="fa fa-3x fa-twitter-square"></i></span>
+                <span><i class="fa fa-3x fa-google-plus-square"></i></span>
+                <span><i class="fa fa-3x fa-linkedin-square"></i></span>
+                <span><i class="fa fa-3x fa-pinterest-square"></i></span>
+            </div></footer>
 
         <!-- DEMO [REMOVE IT ON PRODUCTION] -->
         <script type="text/javascript" src="<?php print _MEDIA_URL ?>assets/_con/js/_demo.js"></script>
