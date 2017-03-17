@@ -102,9 +102,9 @@
                 <div class="content auto-overflow">
                     <select multiple>
                         <option value="" disabled selected>Choose Player</option>
-                        <option value="1" selected>Player 1</option>
-                        <option value="2" selected>Player 2</option>
-                        <option value="3" selected>Player 3</option>
+                        <option value="1" selected>Stephen Curry</option>
+                        <option value="2" selected>Kevin Durant</option>
+                        <option value="3" selected>Draymond Green</option>
                     </select>
                 </div>
             </div>
@@ -132,12 +132,12 @@
         </div>
         <div class="col l4 m4 s12 key-payers-body">
             <div class="key-player-profile">
-                <img src="<?= _MEDIA_URL."assets/_con/images/user7.jpg" ?>" />
+                <img src="<?= _MEDIA_URL."player_images/stephen_curry.png" ?>" />
             </div>
             <div class="key-player-detail">
                 <table>
-                    <tr><th colspan="2" style="text-align: center;font-size: 15px;">Player 1</th></tr>
-                    <tr><th>Position</th><td>#2</td></tr>
+                    <tr><th colspan="2" style="text-align: center;font-size: 15px;">Stephen Curry</th></tr>
+                    <tr><th>Position</th><td>#30</td></tr>
                     <tr><th colspan="10" style='font-size: 4px;'>&nbsp;</th></tr>
                     <tr><th>Age</th><td>30</td></tr>
                     <tr><th>Height</th><td>6'</td></tr>
@@ -153,12 +153,12 @@
         </div>
         <div class="col l4 m4 s12 key-payers-body">     
             <div class="key-player-profile">
-                <img src="<?= _MEDIA_URL."assets/_con/images/user.jpg" ?>" />
+                <img src="<?= _MEDIA_URL."player_images/kevin_durant.png" ?>" />
             </div>
             <div class="key-player-detail">
                 <table>
-                    <tr><th colspan="2" style="text-align: center;font-size: 15px;">Player 2</th></tr>
-                    <tr><th>Position</th><td>#5</td></tr>
+                    <tr><th colspan="2" style="text-align: center;font-size: 15px;">Kevin Durant</th></tr>
+                    <tr><th>Position</th><td>#35</td></tr>
                     <tr><th colspan="10" style='font-size: 4px;'>&nbsp;</th></tr>
                     <tr><th>Age</th><td>30</td></tr>
                     <tr><th>Height</th><td>6'</td></tr>
@@ -174,12 +174,12 @@
         </div>
         <div class="col l4 m4 s12 key-payers-body">                
             <div class="key-player-profile">
-                <img src="<?= _MEDIA_URL."assets/_con/images/user9.jpg" ?>" />
+                <img src="<?= _MEDIA_URL."player_images/draymond_green.png" ?>" />
             </div>
             <div class="key-player-detail">
                 <table>
-                    <tr><th colspan="2" style="text-align: center;font-size: 15px;">Player 3</th></tr>
-                    <tr><th>Position</th><td>#8</td></tr>
+                    <tr><th colspan="2" style="text-align: center;font-size: 15px;">Draymond Green</th></tr>
+                    <tr><th>Position</th><td>#23</td></tr>
                     <tr><th colspan="10" style='font-size: 4px;'>&nbsp;</th></tr>
                     <tr><th>Age</th><td>30</td></tr>
                     <tr><th>Height</th><td>6'</td></tr>

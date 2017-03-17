@@ -51,8 +51,9 @@
     float: left;
 }
 .key-player-profile img{
+    border: 1px solid #505050;
     border-radius: 50%;
-    height: 100px;    
+    height: 110px;    
     margin-top: 50px;
 }
 .key-player-detail{
